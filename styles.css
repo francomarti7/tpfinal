@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*<--------------------HEADER-------------------->*/
+header{
+    background-color: #434f56;
+}
+
+h3{
+    color: #bf6900;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.logoblanco{
+
+}
+.logoblanco img{
+    width: 120px;
+    margin-right: 200px;
+
+
+}
+
+li{
+    list-style-type: none;
+    padding: 15px 15px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+ul a{
+    color: #ffffff;
+    margin-left: 15px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+a:hover {
+    color: red ;
+    align-content: center;
+}
+
+/*<--------------------BODY-------------------->*/
+
+html{
+    min-height: 100%;
+    background-image: linear-gradient(to bottom right, rgba(255, 145, 65, 0.92), #eed452);
+}
+
+.logoabajo{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    max-width: 100%;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+/*  LOGO ARRIBA
+.logo{
+    display: flex;
+    justify-content: start;
+    height: 90px;
+    max-width: 100%;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+*/
+
+
+/*<--------------------FILTRO-------------------->*/
+.formulariofiltro{
+    flex-wrap: wrap;
+}
+.filtro{
+    display: flex;
+    min-height: 100%;
+    width: 250px;
+    margin-top: 50px;
+    flex-direction: column;
+    background: rgba(255,255,255,0.70);
+    align-items: center;
+    border-radius: 5px;
+
+
+}
+
+#filtro-form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#filtro-form2{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.boton {
+    transition-duration: 0.4s;
+}
+
+.boton:hover {
+    background-color: #9a9898; /* GRIS */
+    color: white;
+}
+
+#filtra:hover {
+    background-color: #9a9898; /* GRIS */
+    color: white;
+}
+
+.filtro input[type=submit] {
+    font-family: 'Roboto', sans-serif;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    border:  0.1px ;
+    border-radius: 35px;
+
+}
+
+.filtro label{
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.convert{
+    margin-top: 35px;
+}
+
+.botonpdf {
+    transition-duration: 0.4s;
+}
+
+
+.botoness{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonpdf:hover {
+    background-color: #c50d1d; /* ROJO */
+    color: white;
+}
+
+.botonexcel {
+    transition-duration: 0.4s;
+}
+
+.botonexcel:hover {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+
+.botonfiltro:hover {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+
+.botonimpr{
+    background-color: #ffffff;
+    color: #050505;
+    margin-top: 10px;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 35px;
+
+}
+
+.botonfiltro{
+    background-color: #ffffff;
+    color: #050505;
+    margin-top: 10px;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 35px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.boton-flt{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+
+.botonimpr{
+    font-family: 'Roboto', sans-serif;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.botonimpr:hover {
+    background-color: #6984f8;
+    color: #ffffff;
+    align-content: center;
+    text-decoration: none;
+}
+
+
+
+/*<--------------------TABLA---------------->*/
+
+
+.tabla{
+    display: block;
+    background: rgba(255,255,255,0.70);
+    margin: 30px 20px 0 50px ;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.tabla thead tr {
+    background-color: #434f56;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+
+.tabla th,
+.tabla td {
+    padding: 12px 50px;
+}
+
+
+/*<----------FORMULARIO DE MODIFICACIONES ---------------->*/
+
+.container{
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.agregotitl{
+    color: #ff7402;
+}
+
+.formulario{
+    height: 400px;
+    width: 400px;
+    background: rgba(255,255,255,0.80);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    margin-top: 50px;
+    padding: 50px 50px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    border: none ;
+
+}
+
+label{
+    display: block;
+
+}
+
+.form1{
+    margin-top: 30px;
+}
+
+.form1 label{
+    margin-bottom: 25px;
+}
+
+
+.form2,.form3,.form4{
+    margin-top: 15px;
+}
+
+
+.formulario h2 {
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    transition-duration: 0.4s;
+}
+
+.btn input[type=submit] {
+    padding: 10px 45px;
+    border:  0.1px ;
+    border-radius: 35px;
+}
+
+
+.btn1:hover {
+    background-color: #9a9898; /* GRIS */
+    color: white;
+}
+
+
+
+/*<--------------------ELIMINAR-------------------->*/
+
+.eliminatitl{
+    color: #ff7402;
+}
+
+.btnelim .btn1{
+    margin-top: 50px;
+}
+
+.btnelim input[type=submit] {
+    padding: 10px 45px;
+    border:  0.1px ;
+    border-radius: 35px;
+}
+.btnelim{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
